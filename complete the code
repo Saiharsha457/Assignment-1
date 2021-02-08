@@ -1,0 +1,24 @@
+#include <assert.h>
+#include <ctype.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+
+int main()
+{
+    int rollno= 123;
+    int age=12;
+    char c[ ]="john";
+    printf("Hi your rollno is %d\n",rollno);
+    printf("Your age is %d\n",age);
+    printf("your name is %s",c);
+
+    return 0;
+}
